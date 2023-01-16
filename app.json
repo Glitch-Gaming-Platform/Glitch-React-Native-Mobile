@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "RN SocialMedia",
+    "slug": "rn-SocialMedia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.render.rnsocialmedia",
+      "buildNumber": "1.0.1",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.render.rnsocialmedia",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ed1dc7f-049e-4808-a604-151741d03c3e"
+      }
+    }
+  }
+}
